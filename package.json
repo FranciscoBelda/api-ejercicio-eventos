@@ -1,0 +1,22 @@
+{
+  "name": "01-api-eventos",
+  "version": "1.0.0",
+  "description": "API de Eventos con Node",
+  "author": {
+    "name": "Francisco Belda"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.0",
+    "morgan": "^1.12.1"
+  }
+}
